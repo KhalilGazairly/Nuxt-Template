@@ -1,0 +1,30 @@
+[
+  {
+    "name": "index___ar",
+    "path": "/ar",
+    "component": "/home/khalil/projects/mewfarha/mewfarha/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_31eb73f7"
+  },
+  {
+    "name": "inspire___en",
+    "path": "/inspire",
+    "component": "/home/khalil/projects/mewfarha/mewfarha/pages/inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_35eb6a82"
+  },
+  {
+    "name": "inspire___ar",
+    "path": "/ar/inspire",
+    "component": "/home/khalil/projects/mewfarha/mewfarha/pages/inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_35eb6a82"
+  },
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "/home/khalil/projects/mewfarha/mewfarha/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_31eb73f7"
+  }
+]

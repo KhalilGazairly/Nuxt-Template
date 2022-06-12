@@ -1,11 +1,18 @@
 <template>
-  <v-row justify="center" align="center">
-
-  </v-row>
+  <Index />
 </template>
 
 <script>
+import Index from "../components/index/index.vue";
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  components:{
+    Index
+  },
+  head() {
+    return this.$nuxtI18nHead({ addSeoAttributes: true })
+  },
 }
 </script>
+

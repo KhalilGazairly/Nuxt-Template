@@ -4,7 +4,6 @@ import colors from 'vuetify/es5/util/colors'
 Vue.use(Vuetify)
 
 export default new Vuetify({
-  customVariables: ['~/assets/variables.scss'],
   rtl: true,
     theme: {
         light: true,

@@ -5,42 +5,46 @@
                 <thead>
                     <tr>
                         <th class="text-center">
-                            Name
+                            id
                         </th>
                         <th class="text-center">
-                            Phone
+                            subject
                         </th>
                         <th class="text-center">
-                            email
-                        </th> 
-                        <th class="text-center">details</th>
-                        <th class="text-center">location</th>
-                        <th class="text-center">type</th>
+                            content
+                        </th>
+                        <th class="text-center">
+                            clicked
+                        </th>
                         <th class="text-center">
                             action
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="item in allUsersList.data" :key="item._id">
-                        <td class="text-center">{{ item.userName }}</td>
-                        <td class="text-center">{{ item.phone }}</td>
-                        <td class="text-center">{{ item.email }}</td>
-                        <td class="text-center">{{ item.details }}</td>
-                        <td class="text-center">{{ item.location }}</td>
-                        <td class="text-center">{{ item.type }}</td>
+                    <tr v-for="item in allnotificationList.data.data" :key="item._id">
+                        <td class="text-center">{{ item._id }}</td>
+                        <td class="text-center">{{ item.subject }}</td>
+                        <td class="text-center">{{ item.content }}</td> 
+                        <td class="text-center">{{ item.is_clicked }}</td> 
                         <td class="text-center">
                             <v-row justify="center">
-                                <NuxtLink :to="localePath('/api/user/'+item._id)">
+                                <NuxtLink :to="localePath('/Notifications/'+item._id)">
                                     <v-icon left>
                                         {{ icons.mdiPencil }}
                                     </v-icon>
                                 </NuxtLink>
-                                <!-- <NuxtLink :to="localePath('/delete')">
-                                    <v-icon left>
-                                        {{ icons.mdiDelete }}
-                                    </v-icon>
-                                </NuxtLink> -->
+                                <v-btn
+                                    fab
+                                    dark
+                                    small
+                                    :rounded="false" 
+                                    @click="Delete(item._id)"
+                                    color="red"
+                                    text
+                                >
+                                    <v-icon>mdi-delete</v-icon>
+                                </v-btn>
                             </v-row>
                         </td>
                     </tr>
@@ -67,13 +71,16 @@ export default {
     Loading,
   },
   computed: {
-    ...mapGetters(['allUsersList']),
+    ...mapGetters(['allnotificationList']),
   },
   methods:{
-    ...mapActions(['getUsers'])
+    ...mapActions(['getNotification', 'DeleteNotification']),
+    Delete(id) {
+      this.DeleteNotification(id)
+    },
   },
    mounted() { 
-    this.getUsers()
+    this.getNotification()
   },
 
 }

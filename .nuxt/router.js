@@ -11,6 +11,7 @@ const _54702e5c = () => interopDefault(import('..\\pages\\cart.vue' /* webpackCh
 const _52a42674 = () => interopDefault(import('..\\pages\\categories\\index.vue' /* webpackChunkName: "pages/categories/index" */))
 const _563b089c = () => interopDefault(import('..\\pages\\History.vue' /* webpackChunkName: "pages/History" */))
 const _72a8dda7 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _c81a6788 = () => interopDefault(import('..\\pages\\Notifications\\index.vue' /* webpackChunkName: "pages/Notifications/index" */))
 const _7b5f0797 = () => interopDefault(import('..\\pages\\orders.vue' /* webpackChunkName: "pages/orders" */))
 const _1df6e750 = () => interopDefault(import('..\\pages\\privcy-policy.vue' /* webpackChunkName: "pages/privcy-policy" */))
 const _6129f456 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
@@ -19,7 +20,9 @@ const _6b8e1faf = () => interopDefault(import('..\\pages\\service\\index.vue' /*
 const _e89285da = () => interopDefault(import('..\\pages\\terms-condition.vue' /* webpackChunkName: "pages/terms-condition" */))
 const _ddecad78 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
 const _053174fc = () => interopDefault(import('..\\pages\\users\\index.vue' /* webpackChunkName: "pages/users/index" */))
+const _0a1b0602 = () => interopDefault(import('..\\pages\\Notifications\\create.vue' /* webpackChunkName: "pages/Notifications/create" */))
 const _2b9d9448 = () => interopDefault(import('..\\pages\\categories\\_id.vue' /* webpackChunkName: "pages/categories/_id" */))
+const _9e02a4b8 = () => interopDefault(import('..\\pages\\Notifications\\_id.vue' /* webpackChunkName: "pages/Notifications/_id" */))
 const _0e2e41d7 = () => interopDefault(import('..\\pages\\service\\_id.vue' /* webpackChunkName: "pages/service/_id" */))
 
 const emptyFn = () => {}
@@ -61,6 +64,10 @@ export const routerOptions = {
     path: "/login",
     component: _72a8dda7,
     name: "login___en"
+  }, {
+    path: "/Notifications",
+    component: _c81a6788,
+    name: "Notifications___en"
   }, {
     path: "/orders",
     component: _7b5f0797,
@@ -118,6 +125,10 @@ export const routerOptions = {
     component: _72a8dda7,
     name: "login___ar"
   }, {
+    path: "/ar/Notifications",
+    component: _c81a6788,
+    name: "Notifications___ar"
+  }, {
     path: "/ar/orders",
     component: _7b5f0797,
     name: "orders___ar"
@@ -150,9 +161,21 @@ export const routerOptions = {
     component: _053174fc,
     name: "users___ar"
   }, {
+    path: "/Notifications/create",
+    component: _0a1b0602,
+    name: "Notifications-create___en"
+  }, {
+    path: "/ar/Notifications/create",
+    component: _0a1b0602,
+    name: "Notifications-create___ar"
+  }, {
     path: "/ar/categories/:id",
     component: _2b9d9448,
     name: "categories-id___ar"
+  }, {
+    path: "/ar/Notifications/:id",
+    component: _9e02a4b8,
+    name: "Notifications-id___ar"
   }, {
     path: "/ar/service/:id",
     component: _0e2e41d7,
@@ -161,6 +184,10 @@ export const routerOptions = {
     path: "/categories/:id",
     component: _2b9d9448,
     name: "categories-id___en"
+  }, {
+    path: "/Notifications/:id",
+    component: _9e02a4b8,
+    name: "Notifications-id___en"
   }, {
     path: "/service/:id",
     component: _0e2e41d7,

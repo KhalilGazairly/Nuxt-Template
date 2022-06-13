@@ -1,18 +1,26 @@
 <template>
-  <Index />
+  <Login />
 </template>
 
-<script>
-import Index from "../components/index/index.vue";
 
+<script>
+import Login from '../components/login/login.vue'
 export default {
-  name: 'IndexPage',
-  components:{
-    Index
-  },
-  head() {
-    return this.$nuxtI18nHead({ addSeoAttributes: true })
+   data: () => ({
+
+  }),
+  mounted(){
+
+},
+
+  components: {
+    Login,
   },
 }
 </script>
 
+
+
+<style scoped>
+
+</style>

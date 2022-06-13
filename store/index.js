@@ -12,6 +12,7 @@ import CityModule from './modules/CityModule'
 import msgModules from './modules/msgModules'
 import User from './modules/userModules'
 import Users from './modules/usersModules'
+import Notifications from './modules/notificationsModules'
 // Load Vuex
 Vue.use(Vuex)
 
@@ -29,7 +30,8 @@ const store = () => {
       CityModule,
       msgModules,
       User,
-      Users
+      Users,
+      Notifications
     },
   })
 }

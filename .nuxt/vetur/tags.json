@@ -8,29 +8,29 @@
   "CategoriesSubCategories": {
     "description": "Auto imported from components/categories/subCategories.vue"
   },
-  "History": {
-    "description": "Auto imported from components/history/history.vue"
-  },
   "Index": {
     "description": "Auto imported from components/index/index.vue"
   },
   "IndexUser": {
     "description": "Auto imported from components/index/indexUser.vue"
   },
-  "Login": {
-    "description": "Auto imported from components/login/login.vue"
-  },
-  "Register": {
-    "description": "Auto imported from components/register/register.vue"
-  },
-  "Orders": {
-    "description": "Auto imported from components/orders/orders.vue"
+  "History": {
+    "description": "Auto imported from components/history/history.vue"
   },
   "Overlays": {
     "description": "Auto imported from components/overlays/overlays.vue"
   },
   "OverlaysSessionExpired": {
     "description": "Auto imported from components/overlays/Session-expired.vue"
+  },
+  "Login": {
+    "description": "Auto imported from components/login/login.vue"
+  },
+  "Orders": {
+    "description": "Auto imported from components/orders/orders.vue"
+  },
+  "Register": {
+    "description": "Auto imported from components/register/register.vue"
   },
   "Service": {
     "description": "Auto imported from components/service/service.vue"

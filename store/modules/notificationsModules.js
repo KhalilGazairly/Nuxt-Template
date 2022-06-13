@@ -1,7 +1,7 @@
 const state = {
     loading: true,
     data: [],
-    oneNotification:[]
+    oneNotification: [],
 }
 
 const getters = {
@@ -36,28 +36,24 @@ const actions = {
             state.loading = false
         })
     },
-    async updateNotification({ state , dispatch }, Obj) {
-    
+    async updateNotification({ state, dispatch }, Obj) {
         state.loading = true
-    
-         this.$axios
-           .put('/api/notification/' + Obj.id,  {"content": Obj.content,
-           "subject":Obj.subject,"is_clicked":Obj.is_clicked})
-           .then((res) => {
-             state.cart = res.data
-             if (res.data.status === 200) {
-               state.addressMSG = res.data.msg
-    
-               //  alert(res.data.msg)
-             } else {
-               state.addressMSG = res.data.msg
-    
-               //  alert(res.data.msg)
-             }
-             state.loading = false
-           })
-      },
-    
+        var data = JSON.stringify({
+            "is_clicked": Obj.is_clicked,
+            "content":Obj.content,
+            "subject":Obj.subject
+        });
+        const config = { headers: {'Content-Type': 'application/json'} };
+        this.$axios.put('/api/notification/' + Obj.id, data,config).then((res) => {
+            state.cart = res.data
+            if (res.data.status === 200) {
+                state.data = res.data
+            } else {
+                state.addressMSG = res.data.msg
+            }
+            state.loading = false
+        })
+    },
 }
 
 const mutations = {}

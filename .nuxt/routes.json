@@ -3,280 +3,240 @@
     "name": "about___en",
     "path": "/about",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\about.vue",
-    "chunkName": "pages/about",
-    "_name": "_ed6d406a"
+    "chunkName": "pages/about"
   },
   {
     "name": "account___en",
     "path": "/account",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\account.vue",
-    "chunkName": "pages/account",
-    "_name": "_dfc3f62a"
+    "chunkName": "pages/account"
   },
   {
     "name": "index___ar",
     "path": "/ar",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_adfd8ae0"
+    "chunkName": "pages/index"
   },
   {
     "name": "cart___en",
     "path": "/cart",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\cart.vue",
-    "chunkName": "pages/cart",
-    "_name": "_54702e5c"
+    "chunkName": "pages/cart"
   },
   {
     "name": "categories___en",
     "path": "/categories",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\categories\\\\index.vue",
-    "chunkName": "pages/categories/index",
-    "_name": "_52a42674"
+    "chunkName": "pages/categories/index"
   },
   {
     "name": "History___en",
     "path": "/History",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\History.vue",
-    "chunkName": "pages/History",
-    "_name": "_563b089c"
+    "chunkName": "pages/History"
   },
   {
     "name": "login___en",
     "path": "/login",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_72a8dda7"
+    "chunkName": "pages/login"
   },
   {
     "name": "Notifications___en",
     "path": "/Notifications",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\index.vue",
-    "chunkName": "pages/Notifications/index",
-    "_name": "_c81a6788"
+    "chunkName": "pages/Notifications/index"
   },
   {
     "name": "orders___en",
     "path": "/orders",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\orders.vue",
-    "chunkName": "pages/orders",
-    "_name": "_7b5f0797"
+    "chunkName": "pages/orders"
   },
   {
     "name": "privcy-policy___en",
     "path": "/privcy-policy",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\privcy-policy.vue",
-    "chunkName": "pages/privcy-policy",
-    "_name": "_1df6e750"
+    "chunkName": "pages/privcy-policy"
   },
   {
     "name": "register___en",
     "path": "/register",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\register.vue",
-    "chunkName": "pages/register",
-    "_name": "_6129f456"
+    "chunkName": "pages/register"
   },
   {
     "name": "Reschedule___en",
     "path": "/Reschedule",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Reschedule.vue",
-    "chunkName": "pages/Reschedule",
-    "_name": "_973951c8"
+    "chunkName": "pages/Reschedule"
   },
   {
     "name": "service___en",
     "path": "/service",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\service\\\\index.vue",
-    "chunkName": "pages/service/index",
-    "_name": "_6b8e1faf"
+    "chunkName": "pages/service/index"
   },
   {
     "name": "terms-condition___en",
     "path": "/terms-condition",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\terms-condition.vue",
-    "chunkName": "pages/terms-condition",
-    "_name": "_e89285da"
+    "chunkName": "pages/terms-condition"
   },
   {
     "name": "test___en",
     "path": "/test",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\test.vue",
-    "chunkName": "pages/test",
-    "_name": "_ddecad78"
+    "chunkName": "pages/test"
   },
   {
     "name": "users___en",
     "path": "/users",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\users\\\\index.vue",
-    "chunkName": "pages/users/index",
-    "_name": "_053174fc"
+    "chunkName": "pages/users/index"
   },
   {
     "name": "about___ar",
     "path": "/ar/about",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\about.vue",
-    "chunkName": "pages/about",
-    "_name": "_ed6d406a"
+    "chunkName": "pages/about"
   },
   {
     "name": "account___ar",
     "path": "/ar/account",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\account.vue",
-    "chunkName": "pages/account",
-    "_name": "_dfc3f62a"
+    "chunkName": "pages/account"
   },
   {
     "name": "cart___ar",
     "path": "/ar/cart",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\cart.vue",
-    "chunkName": "pages/cart",
-    "_name": "_54702e5c"
+    "chunkName": "pages/cart"
   },
   {
     "name": "categories___ar",
     "path": "/ar/categories",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\categories\\\\index.vue",
-    "chunkName": "pages/categories/index",
-    "_name": "_52a42674"
+    "chunkName": "pages/categories/index"
   },
   {
     "name": "History___ar",
     "path": "/ar/History",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\History.vue",
-    "chunkName": "pages/History",
-    "_name": "_563b089c"
+    "chunkName": "pages/History"
   },
   {
     "name": "login___ar",
     "path": "/ar/login",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_72a8dda7"
+    "chunkName": "pages/login"
   },
   {
     "name": "Notifications___ar",
     "path": "/ar/Notifications",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\index.vue",
-    "chunkName": "pages/Notifications/index",
-    "_name": "_c81a6788"
+    "chunkName": "pages/Notifications/index"
   },
   {
     "name": "orders___ar",
     "path": "/ar/orders",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\orders.vue",
-    "chunkName": "pages/orders",
-    "_name": "_7b5f0797"
+    "chunkName": "pages/orders"
   },
   {
     "name": "privcy-policy___ar",
     "path": "/ar/privcy-policy",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\privcy-policy.vue",
-    "chunkName": "pages/privcy-policy",
-    "_name": "_1df6e750"
+    "chunkName": "pages/privcy-policy"
   },
   {
     "name": "register___ar",
     "path": "/ar/register",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\register.vue",
-    "chunkName": "pages/register",
-    "_name": "_6129f456"
+    "chunkName": "pages/register"
   },
   {
     "name": "Reschedule___ar",
     "path": "/ar/Reschedule",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Reschedule.vue",
-    "chunkName": "pages/Reschedule",
-    "_name": "_973951c8"
+    "chunkName": "pages/Reschedule"
   },
   {
     "name": "service___ar",
     "path": "/ar/service",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\service\\\\index.vue",
-    "chunkName": "pages/service/index",
-    "_name": "_6b8e1faf"
+    "chunkName": "pages/service/index"
   },
   {
     "name": "terms-condition___ar",
     "path": "/ar/terms-condition",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\terms-condition.vue",
-    "chunkName": "pages/terms-condition",
-    "_name": "_e89285da"
+    "chunkName": "pages/terms-condition"
   },
   {
     "name": "test___ar",
     "path": "/ar/test",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\test.vue",
-    "chunkName": "pages/test",
-    "_name": "_ddecad78"
+    "chunkName": "pages/test"
   },
   {
     "name": "users___ar",
     "path": "/ar/users",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\users\\\\index.vue",
-    "chunkName": "pages/users/index",
-    "_name": "_053174fc"
+    "chunkName": "pages/users/index"
   },
   {
     "name": "Notifications-create___en",
     "path": "/Notifications/create",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\create.vue",
-    "chunkName": "pages/Notifications/create",
-    "_name": "_0a1b0602"
+    "chunkName": "pages/Notifications/create"
   },
   {
     "name": "Notifications-create___ar",
     "path": "/ar/Notifications/create",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\create.vue",
-    "chunkName": "pages/Notifications/create",
-    "_name": "_0a1b0602"
+    "chunkName": "pages/Notifications/create"
   },
   {
     "name": "categories-id___ar",
     "path": "/ar/categories/:id",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\categories\\\\_id.vue",
-    "chunkName": "pages/categories/_id",
-    "_name": "_2b9d9448"
+    "chunkName": "pages/categories/_id"
   },
   {
     "name": "Notifications-id___ar",
     "path": "/ar/Notifications/:id",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\_id.vue",
-    "chunkName": "pages/Notifications/_id",
-    "_name": "_9e02a4b8"
+    "chunkName": "pages/Notifications/_id"
   },
   {
     "name": "service-id___ar",
     "path": "/ar/service/:id",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\service\\\\_id.vue",
-    "chunkName": "pages/service/_id",
-    "_name": "_0e2e41d7"
+    "chunkName": "pages/service/_id"
   },
   {
     "name": "categories-id___en",
     "path": "/categories/:id",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\categories\\\\_id.vue",
-    "chunkName": "pages/categories/_id",
-    "_name": "_2b9d9448"
+    "chunkName": "pages/categories/_id"
   },
   {
     "name": "Notifications-id___en",
     "path": "/Notifications/:id",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\_id.vue",
-    "chunkName": "pages/Notifications/_id",
-    "_name": "_9e02a4b8"
+    "chunkName": "pages/Notifications/_id"
   },
   {
     "name": "service-id___en",
     "path": "/service/:id",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\service\\\\_id.vue",
-    "chunkName": "pages/service/_id",
-    "_name": "_0e2e41d7"
+    "chunkName": "pages/service/_id"
   },
   {
     "name": "index___en",
     "path": "/",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_adfd8ae0"
+    "chunkName": "pages/index"
   }
 ]

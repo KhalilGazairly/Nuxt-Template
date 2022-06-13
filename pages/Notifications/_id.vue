@@ -3,7 +3,6 @@
         <LoadingP />
       </div>
   <v-form
-        lazy-validation
        v-else>
     <v-text-field
       v-model="allnotificationList.oneNotification.subject"
@@ -47,10 +46,10 @@ export default {
     name: 'IndexPage',
   data() {
     return {
-      data: {
+      datanotification: {
         content: '',
         subject: '',
-        is_clicked: true,
+        is_clicked:  false,
         id:this.$route.params.id
       },
     };
@@ -70,9 +69,11 @@ export default {
   },
   methods: {
     ...mapActions(['updateNotification','getoneNotification']),
-    changenotification() {
-        console.log(this.data)
-      this.updateNotification(this.data)
+    changenotification(e) {
+      e.preventDefault()
+      alert(this.datanotification.content)
+        console.log(this.datanotification)
+      this.updateNotification(this.datanotification)
     },
   },
   mounted() {

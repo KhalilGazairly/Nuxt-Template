@@ -20,7 +20,7 @@ export const options = {
   sortRoutes: true,
   strategy: "prefix_except_default",
   lazy: true,
-  langDir: "/home/khalil/projects/mewfarha/mewfarha/lang",
+  langDir: "C:\\Users\\Abdullah\\Desktop\\musallaha-user-website\\lang",
   rootRedirect: null,
   detectBrowserLanguage: {"alwaysRedirect":false,"cookieCrossOrigin":false,"cookieDomain":null,"cookieKey":"i18n_redirected","cookieSecure":false,"fallbackLocale":"","redirectOn":"root","useCookie":true},
   differentDomains: false,
@@ -38,6 +38,6 @@ export const options = {
 }
 
 export const localeMessages = {
-  'en.json': () => import('../../lang/en.json' /* webpackChunkName: "lang-en.json" */),
-  'ar.json': () => import('../../lang/ar.json' /* webpackChunkName: "lang-ar.json" */),
+  'en.json': () => import('../..\\lang\\en.json' /* webpackChunkName: "lang-en.json" */),
+  'ar.json': () => import('../..\\lang\\ar.json' /* webpackChunkName: "lang-ar.json" */),
 }

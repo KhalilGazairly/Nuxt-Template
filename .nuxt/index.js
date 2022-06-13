@@ -5,7 +5,7 @@ import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
 import { createRouter } from './router.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtError from '../layouts/error.vue'
+import NuxtError from '..\\layouts\\error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
@@ -13,16 +13,19 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_6a4cef9e from 'nuxt_plugin_plugin_6a4cef9e' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_plugin_47fddd46 from 'nuxt_plugin_plugin_47fddd46' // Source: ./vuetify/plugin.js (mode: 'all')
-import nuxt_plugin_pluginutils_7de20054 from 'nuxt_plugin_pluginutils_7de20054' // Source: ./nuxt-i18n/plugin.utils.js (mode: 'all')
-import nuxt_plugin_pluginrouting_4363c89f from 'nuxt_plugin_pluginrouting_4363c89f' // Source: ./nuxt-i18n/plugin.routing.js (mode: 'all')
-import nuxt_plugin_pluginmain_763fff30 from 'nuxt_plugin_pluginmain_763fff30' // Source: ./nuxt-i18n/plugin.main.js (mode: 'all')
-import nuxt_plugin_cookieuniversalnuxt_1c86e66f from 'nuxt_plugin_cookieuniversalnuxt_1c86e66f' // Source: ./cookie-universal-nuxt.js (mode: 'all')
-import nuxt_plugin_axios_7569b4c7 from 'nuxt_plugin_axios_7569b4c7' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_axios_5659d192 from 'nuxt_plugin_axios_5659d192' // Source: ../plugins/axios.js (mode: 'all')
-import nuxt_plugin_vuetify_d6afc2c2 from 'nuxt_plugin_vuetify_d6afc2c2' // Source: ../plugins/vuetify.js (mode: 'all')
-import nuxt_plugin_fontawesome_b8db358e from 'nuxt_plugin_fontawesome_b8db358e' // Source: ../plugins/fontawesome.js (mode: 'all')
+import nuxt_plugin_plugin_d732c5fa from 'nuxt_plugin_plugin_d732c5fa' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_f1e2145e from 'nuxt_plugin_plugin_f1e2145e' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_pluginutils_06cd7188 from 'nuxt_plugin_pluginutils_06cd7188' // Source: .\\nuxt-i18n\\plugin.utils.js (mode: 'all')
+import nuxt_plugin_pluginrouting_3f37bcd3 from 'nuxt_plugin_pluginrouting_3f37bcd3' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
+import nuxt_plugin_pluginmain_2370d108 from 'nuxt_plugin_pluginmain_2370d108' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
+import nuxt_plugin_cookieuniversalnuxt_6e065d64 from 'nuxt_plugin_cookieuniversalnuxt_6e065d64' // Source: .\\cookie-universal-nuxt.js (mode: 'all')
+import nuxt_plugin_axios_59f73da6 from 'nuxt_plugin_axios_59f73da6' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_axios_5659d192 from 'nuxt_plugin_axios_5659d192' // Source: ..\\plugins\\axios.js (mode: 'all')
+import nuxt_plugin_vuetify_d6afc2c2 from 'nuxt_plugin_vuetify_d6afc2c2' // Source: ..\\plugins\\vuetify.js (mode: 'all')
+import nuxt_plugin_fontawesome_b8db358e from 'nuxt_plugin_fontawesome_b8db358e' // Source: ..\\plugins\\fontawesome.js (mode: 'all')
+import nuxt_plugin_VuePhoneNumberInput_3eb46d14 from 'nuxt_plugin_VuePhoneNumberInput_3eb46d14' // Source: ..\\plugins\\VuePhoneNumberInput.js (mode: 'all')
+import nuxt_plugin_validationrules_0ed77d84 from 'nuxt_plugin_validationrules_0ed77d84' // Source: ..\\plugins\\validation-rules.js (mode: 'all')
+import nuxt_plugin_CxltToastr_08fb224e from 'nuxt_plugin_CxltToastr_08fb224e' // Source: ..\\plugins\\CxltToastr.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -90,7 +93,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"titleTemplate":"%s - mewfarha","title":"mewfarha","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
+    head: {"title":"Mr.Musllaha","htmlAttrs":{"lang":"ar"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
 
     store,
     router,
@@ -219,32 +222,32 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_6a4cef9e === 'function') {
-    await nuxt_plugin_plugin_6a4cef9e(app.context, inject)
+  if (typeof nuxt_plugin_plugin_d732c5fa === 'function') {
+    await nuxt_plugin_plugin_d732c5fa(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_47fddd46 === 'function') {
-    await nuxt_plugin_plugin_47fddd46(app.context, inject)
+  if (typeof nuxt_plugin_plugin_f1e2145e === 'function') {
+    await nuxt_plugin_plugin_f1e2145e(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginutils_7de20054 === 'function') {
-    await nuxt_plugin_pluginutils_7de20054(app.context, inject)
+  if (typeof nuxt_plugin_pluginutils_06cd7188 === 'function') {
+    await nuxt_plugin_pluginutils_06cd7188(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginrouting_4363c89f === 'function') {
-    await nuxt_plugin_pluginrouting_4363c89f(app.context, inject)
+  if (typeof nuxt_plugin_pluginrouting_3f37bcd3 === 'function') {
+    await nuxt_plugin_pluginrouting_3f37bcd3(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginmain_763fff30 === 'function') {
-    await nuxt_plugin_pluginmain_763fff30(app.context, inject)
+  if (typeof nuxt_plugin_pluginmain_2370d108 === 'function') {
+    await nuxt_plugin_pluginmain_2370d108(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_cookieuniversalnuxt_1c86e66f === 'function') {
-    await nuxt_plugin_cookieuniversalnuxt_1c86e66f(app.context, inject)
+  if (typeof nuxt_plugin_cookieuniversalnuxt_6e065d64 === 'function') {
+    await nuxt_plugin_cookieuniversalnuxt_6e065d64(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_7569b4c7 === 'function') {
-    await nuxt_plugin_axios_7569b4c7(app.context, inject)
+  if (typeof nuxt_plugin_axios_59f73da6 === 'function') {
+    await nuxt_plugin_axios_59f73da6(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_5659d192 === 'function') {
@@ -257,6 +260,18 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_fontawesome_b8db358e === 'function') {
     await nuxt_plugin_fontawesome_b8db358e(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_VuePhoneNumberInput_3eb46d14 === 'function') {
+    await nuxt_plugin_VuePhoneNumberInput_3eb46d14(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_validationrules_0ed77d84 === 'function') {
+    await nuxt_plugin_validationrules_0ed77d84(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_CxltToastr_08fb224e === 'function') {
+    await nuxt_plugin_CxltToastr_08fb224e(app.context, inject)
   }
 
   // Lock enablePreview in context

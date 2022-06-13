@@ -1,1 +1,113 @@
-{}
+{
+  "Cart": {
+    "description": "Auto imported from components/cart/Cart.vue"
+  },
+  "Categories": {
+    "description": "Auto imported from components/categories/categories.vue"
+  },
+  "CategoriesSubCategories": {
+    "description": "Auto imported from components/categories/subCategories.vue"
+  },
+  "Login": {
+    "description": "Auto imported from components/login/login.vue"
+  },
+  "History": {
+    "description": "Auto imported from components/history/history.vue"
+  },
+  "Orders": {
+    "description": "Auto imported from components/orders/orders.vue"
+  },
+  "Index": {
+    "description": "Auto imported from components/index/index.vue"
+  },
+  "IndexUser": {
+    "description": "Auto imported from components/index/indexUser.vue"
+  },
+  "Overlays": {
+    "description": "Auto imported from components/overlays/overlays.vue"
+  },
+  "OverlaysSessionExpired": {
+    "description": "Auto imported from components/overlays/Session-expired.vue"
+  },
+  "Register": {
+    "description": "Auto imported from components/register/register.vue"
+  },
+  "Service": {
+    "description": "Auto imported from components/service/service.vue"
+  },
+  "ToolsLoadingP": {
+    "description": "Auto imported from components/tools/loadingP.vue"
+  },
+  "ToolsMsgApi": {
+    "description": "Auto imported from components/tools/msgApi.vue"
+  },
+  "ToolsNoData": {
+    "description": "Auto imported from components/tools/no-data.vue"
+  },
+  "User": {
+    "description": "Auto imported from components/user/user.vue"
+  },
+  "CartVueStep1Cart": {
+    "description": "Auto imported from components/cart/vue/step1-cart.vue"
+  },
+  "CartVueStep2Checkout": {
+    "description": "Auto imported from components/cart/vue/step2-checkout.vue"
+  },
+  "CategoriesVueCatGroups": {
+    "description": "Auto imported from components/categories/vue/catGroups.vue"
+  },
+  "CategoriesVueHeadCategories": {
+    "description": "Auto imported from components/categories/vue/headCategories.vue"
+  },
+  "CategoriesVueHeadSubCategories": {
+    "description": "Auto imported from components/categories/vue/headSubCategories.vue"
+  },
+  "CategoriesVueListCategories": {
+    "description": "Auto imported from components/categories/vue/listCategories.vue"
+  },
+  "IndexVueHead": {
+    "description": "Auto imported from components/index/vue/head.vue"
+  },
+  "IndexVueMobileApp": {
+    "description": "Auto imported from components/index/vue/mobileApp.vue"
+  },
+  "IndexVueUserHeadServices": {
+    "description": "Auto imported from components/index/vueUser/headServices.vue"
+  },
+  "RegisterStepsStep1": {
+    "description": "Auto imported from components/register/steps/step1.vue"
+  },
+  "RegisterStepsStep2": {
+    "description": "Auto imported from components/register/steps/step2.vue"
+  },
+  "ServiceVueItemService": {
+    "description": "Auto imported from components/service/vue/item-service.vue"
+  },
+  "UserAddress": {
+    "description": "Auto imported from components/user/vue/user-address.vue"
+  },
+  "UserInfo": {
+    "description": "Auto imported from components/user/vue/user-info.vue"
+  },
+  "UserItems": {
+    "description": "Auto imported from components/user/vue/user-items.vue"
+  },
+  "CartVueStep2CheckoutForm": {
+    "description": "Auto imported from components/cart/vue/step2/checkoutForm.vue"
+  },
+  "CartVueStep1ListCart": {
+    "description": "Auto imported from components/cart/vue/step1/listCart.vue"
+  },
+  "CartVueStep1TotalCart": {
+    "description": "Auto imported from components/cart/vue/step1/totalCart.vue"
+  },
+  "UserVueFormsAddAddress": {
+    "description": "Auto imported from components/user/vue/forms/addAddress.vue"
+  },
+  "UserVueFormsChangeInfo": {
+    "description": "Auto imported from components/user/vue/forms/changeInfo.vue"
+  },
+  "UserVueFormsChangePassword": {
+    "description": "Auto imported from components/user/vue/forms/changePassword.vue"
+  }
+}

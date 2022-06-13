@@ -1,6 +1,6 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-var source = require('./faShieldHalved');
+var source = require('./faShieldBlank');
 exports.definition = {
   prefix: source.prefix,
   iconName: source.iconName,

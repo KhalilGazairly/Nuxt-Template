@@ -8,14 +8,8 @@
   "CategoriesSubCategories": {
     "description": "Auto imported from components/categories/subCategories.vue"
   },
-  "Login": {
-    "description": "Auto imported from components/login/login.vue"
-  },
   "History": {
     "description": "Auto imported from components/history/history.vue"
-  },
-  "Orders": {
-    "description": "Auto imported from components/orders/orders.vue"
   },
   "Index": {
     "description": "Auto imported from components/index/index.vue"
@@ -23,14 +17,20 @@
   "IndexUser": {
     "description": "Auto imported from components/index/indexUser.vue"
   },
+  "Login": {
+    "description": "Auto imported from components/login/login.vue"
+  },
+  "Register": {
+    "description": "Auto imported from components/register/register.vue"
+  },
+  "Orders": {
+    "description": "Auto imported from components/orders/orders.vue"
+  },
   "Overlays": {
     "description": "Auto imported from components/overlays/overlays.vue"
   },
   "OverlaysSessionExpired": {
     "description": "Auto imported from components/overlays/Session-expired.vue"
-  },
-  "Register": {
-    "description": "Auto imported from components/register/register.vue"
   },
   "Service": {
     "description": "Auto imported from components/service/service.vue"
@@ -92,14 +92,14 @@
   "UserItems": {
     "description": "Auto imported from components/user/vue/user-items.vue"
   },
-  "CartVueStep2CheckoutForm": {
-    "description": "Auto imported from components/cart/vue/step2/checkoutForm.vue"
-  },
   "CartVueStep1ListCart": {
     "description": "Auto imported from components/cart/vue/step1/listCart.vue"
   },
   "CartVueStep1TotalCart": {
     "description": "Auto imported from components/cart/vue/step1/totalCart.vue"
+  },
+  "CartVueStep2CheckoutForm": {
+    "description": "Auto imported from components/cart/vue/step2/checkoutForm.vue"
   },
   "UserVueFormsAddAddress": {
     "description": "Auto imported from components/user/vue/forms/addAddress.vue"

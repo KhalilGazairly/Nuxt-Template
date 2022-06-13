@@ -11,7 +11,7 @@
                             Phone
                         </th>
                         <th class="text-center">
-                            Calories
+                            email
                         </th>
                         <th class="text-center">
                             action
@@ -19,13 +19,13 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="item in desserts" :key="item.name">
-                        <td class="text-center">{{ item.name }}</td>
+                    <tr v-for="item in allUsersList.data" :key="item._id">
+                        <td class="text-center">{{ item.userName }}</td>
                         <td class="text-center">{{ item.phone }}</td>
-                        <td class="text-center">{{ item.calories }}</td>
+                        <td class="text-center">{{ item.email }}</td>
                         <td class="text-center">
                             <v-row justify="center">
-                                <NuxtLink :to="localePath('/api/user/629fcf13ec6e7377e597b4a5')">
+                                <NuxtLink :to="localePath('/api/user/'+item._id)">
                                     <v-icon left>
                                         {{ icons.mdiPencil }}
                                     </v-icon>
@@ -46,67 +46,30 @@
 
 <script>
  import {mdiPencil,mdiDelete} from '@mdi/js'
+import { mapActions, mapGetters } from 'vuex'
+import Loading from '../../components/tools/loadingP.vue'
 export default {
     data() {
         return {
             icons: {
                 mdiPencil,
                 mdiDelete,
-            },
-            desserts: [
-                {
-                    name: 'Frozen Yogurt',
-                    phone: '132156464',
-                    calories: 159,
-                },
-                {
-                    name: 'Ice cream sandwich',
-                    phone: '132156464',
-                    calories: 237,
-                },
-                {
-                    name: 'Eclair',
-                    phone: '132156464',
-                    calories: 262,
-                },
-                {
-                    name: 'Cupcake',
-                    phone: '132156464',
-                    calories: 305,
-                },
-                {
-                    name: 'Gingerbread',
-                    phone: '132156464',
-                    calories: 356,
-                },
-                {
-                    name: 'Jelly bean',
-                    phone: '132156464',
-                    calories: 375,
-                },
-                {
-                    name: 'Lollipop',
-                    phone: '132156464',
-                    calories: 392,
-                },
-                {
-                    name: 'Honeycomb',
-                    phone: '132156464',
-                    calories: 408,
-                },
-                {
-                    name: 'Donut',
-                    phone: '132156464',
-                    calories: 452,
-                },
-                {
-                    name: 'KitKat',
-                    phone: '132156464',
-                    calories: 518,
-                },
-            ],
+            }, 
         }
     },
+     components: {
+    Loading,
+  },
+  computed: {
+    ...mapGetters(['allUsersList']),
+  },
+  methods:{
+    ...mapActions(['getUsers'])
+  },
+   mounted() { 
+    this.getUsers()
+  },
+
 }
 </script>
 

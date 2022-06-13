@@ -3,10 +3,7 @@
 const state = {
   checkAuth: false,
   step: 1,
-  is_active: 0,
-  token: '',
-  device: 'website',
-  sessionId: '',
+  Authorization: '',
   user: [],
   register: [],
   loading: false,
@@ -24,25 +21,11 @@ const getters = {
 
 const actions = {
   async setApi({ state, dispatch }, data) {
-    await this.$axios.setHeader('session-id', data)
-    await this.$axios.setHeader('device', state.device)
     await this.$axios.setHeader('lang', this.$i18n.locale)
-    if (this.$cookies.get('token'))
-      await this.$axios.setHeader('token', this.$cookies.get('token'))
-    if (!this.$cookies.get('token')) await dispatch('getToken')
-
-    //sId = session-id  -- for check if user agent changed
-    if (!this.$cookies.get('sId'))
-      this.$cookies.set('sId', data, { path: '/', maxAge: 365 * 24 * 60 * 60 })
-    if (this.$cookies.get("sId") != data && state.checkAuth === true) state.sessionExpired = true;
+    if (this.$cookies.get('Authorization'))
+      await this.$axios.setHeader('Authorization', this.$cookies.get('Authorization'))
 
 
-
-    if (!this.$cookies.get('city_id')) this.$cookies.set('city_id', '1')
-
-      dispatch('getMe'),
-      dispatch('getCity'),
-      dispatch('getCategories')
   },
   async changeLanguage({ state }, data) {
     await this.$cookies.set('lang', data, {
@@ -67,10 +50,7 @@ const actions = {
   },
 
   Logout() {
-    this.$cookies.remove('user')
-    this.$cookies.remove('iA')
-    this.$cookies.remove('sId')
-    this.$cookies.remove('token')
+    this.$cookies.remove('Authorization')
     if (this.$i18n.locale === 'ar') {
       window.location.href = '/'
     } else {
@@ -122,50 +102,6 @@ const actions = {
       })
   },
 
-
-
-  async getToken({ app, state, dispatch }) {
-    if (state.checkAuth === true) return false
-    await this.$axios
-      .$get('/api/user/')
-      .then((res) => {
-        if (res.status === 200) {
-          state.token = res.token
-          this.$axios.setHeader('token', res.token)
-
-          this.$cookies.set('token', res.token, {
-            path: '/',
-            maxAge: 365 * 24 * 60 * 60,
-          })
-        } else {
-        }
-      })
-      .catch(function (error) {
-        // if (error.response.status === 401) {
-        // }
-      })
-  },
-  getMe({ state, dispatch }) {
-    //  state.loadingReg = true;
-
-    const response = this.$axios.$get('/api/user/').then((res) => {
-      console.log(res)
-        state.loadingReg = false
-        if (res.status === 401) {
-          if(state.checkAuth) state.sessionExpired = true;
-          state.step = 1
-        } else {
-          state.step = res.data.current_step + 1
-          state.user = res.data
-          state.is_online = res.data.is_online
-          this.$cookies.set('user', res.data, {
-            path: '/',
-            maxAge: 365 * 24 * 60 * 60,
-          })
-        }
-      })
-      .catch(function (error) { })
-  },
   LoginAction({ app, state, dispatch }, arrayData) {
     var data = {"userName": arrayData.userName,
     "password":arrayData.password}

@@ -11,6 +11,7 @@ import listOrder from './modules/listOrderModules'
 import CityModule from './modules/CityModule'
 import msgModules from './modules/msgModules'
 import User from './modules/userModules'
+import Users from './modules/usersModules'
 // Load Vuex
 Vue.use(Vuex)
 
@@ -27,7 +28,8 @@ const store = () => {
       listOrder,
       CityModule,
       msgModules,
-      User
+      User,
+      Users
     },
   })
 }

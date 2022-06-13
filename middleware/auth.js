@@ -35,12 +35,12 @@ export default function ({ route, store, redirect, app, i18n }) {
 
   
   //  Invalid Access For Visitor
-  // if (!checkUser) {
-  //   if (i18n.locale === 'en')
-  //     return redirect('/login')
-  //   else
-  //     return redirect('/ar/login')
-  // }
+  if (!checkUser) {
+    if (i18n.locale === 'en')
+      return redirect('/login')
+    else
+      return redirect('/ar/login')
+  }
 
   //  Invalid Access For User
 

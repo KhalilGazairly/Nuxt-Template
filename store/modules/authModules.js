@@ -116,18 +116,14 @@ const actions = {
       .then((res) => {
         state.loading = false
         console.log(res.msg)
-        if (res.status === 200) {
-          this.$cookies.set('iA', 1, {
-            path: '/',
-            maxAge: 365 * 24 * 60 * 60,
-          })
-          this.$cookies.set('user', res.data, {
+        if (res.status == 1) {
+          this.$cookies.set('Authorization', 'Bearer '+ res.data.token, {
             path: '/',
             maxAge: 365 * 24 * 60 * 60,
           })
           dispatch('routerTo')
         } else {
-          dispatch('setMsg', { msg: '', errors: res.msg, api: 'login', type: 'error' })
+          dispatch('setMsg', { msg: '', errors: res.message, api: 'login', type: 'error' })
         }
       })
       .catch(function (error) {

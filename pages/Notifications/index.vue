@@ -1,6 +1,7 @@
 <template>
-    <v-container>
-        <v-simple-table>
+    <v-container class="mt-5">
+        <v-simple-table
+    class="elevation-1">
             <template v-slot:default>
                 <thead>
                     <tr>

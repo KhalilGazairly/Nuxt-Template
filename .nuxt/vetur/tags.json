@@ -1,4 +1,13 @@
 {
+  "Cart": {
+    "description": "Auto imported from components/cart/Cart.vue"
+  },
+  "Categories": {
+    "description": "Auto imported from components/categories/categories.vue"
+  },
+  "CategoriesSubCategories": {
+    "description": "Auto imported from components/categories/subCategories.vue"
+  },
   "History": {
     "description": "Auto imported from components/history/history.vue"
   },
@@ -8,20 +17,11 @@
   "IndexUser": {
     "description": "Auto imported from components/index/indexUser.vue"
   },
-  "Login": {
-    "description": "Auto imported from components/login/login.vue"
-  },
-  "Categories": {
-    "description": "Auto imported from components/categories/categories.vue"
-  },
-  "CategoriesSubCategories": {
-    "description": "Auto imported from components/categories/subCategories.vue"
-  },
-  "Cart": {
-    "description": "Auto imported from components/cart/Cart.vue"
-  },
   "Orders": {
     "description": "Auto imported from components/orders/orders.vue"
+  },
+  "Login": {
+    "description": "Auto imported from components/login/login.vue"
   },
   "Overlays": {
     "description": "Auto imported from components/overlays/overlays.vue"
@@ -47,14 +47,11 @@
   "User": {
     "description": "Auto imported from components/user/user.vue"
   },
-  "IndexVueHead": {
-    "description": "Auto imported from components/index/vue/head.vue"
+  "CartVueStep1Cart": {
+    "description": "Auto imported from components/cart/vue/step1-cart.vue"
   },
-  "IndexVueMobileApp": {
-    "description": "Auto imported from components/index/vue/mobileApp.vue"
-  },
-  "IndexVueUserHeadServices": {
-    "description": "Auto imported from components/index/vueUser/headServices.vue"
+  "CartVueStep2Checkout": {
+    "description": "Auto imported from components/cart/vue/step2-checkout.vue"
   },
   "CategoriesVueCatGroups": {
     "description": "Auto imported from components/categories/vue/catGroups.vue"
@@ -68,11 +65,14 @@
   "CategoriesVueListCategories": {
     "description": "Auto imported from components/categories/vue/listCategories.vue"
   },
-  "CartVueStep1Cart": {
-    "description": "Auto imported from components/cart/vue/step1-cart.vue"
+  "IndexVueHead": {
+    "description": "Auto imported from components/index/vue/head.vue"
   },
-  "CartVueStep2Checkout": {
-    "description": "Auto imported from components/cart/vue/step2-checkout.vue"
+  "IndexVueMobileApp": {
+    "description": "Auto imported from components/index/vue/mobileApp.vue"
+  },
+  "IndexVueUserHeadServices": {
+    "description": "Auto imported from components/index/vueUser/headServices.vue"
   },
   "RegisterStepsStep1": {
     "description": "Auto imported from components/register/steps/step1.vue"

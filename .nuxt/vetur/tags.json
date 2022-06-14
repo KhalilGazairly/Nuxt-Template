@@ -1,15 +1,21 @@
 {
+  "History": {
+    "description": "Auto imported from components/history/history.vue"
+  },
+  "Index": {
+    "description": "Auto imported from components/index/index.vue"
+  },
+  "IndexUser": {
+    "description": "Auto imported from components/index/indexUser.vue"
+  },
+  "Cart": {
+    "description": "Auto imported from components/cart/Cart.vue"
+  },
   "Categories": {
     "description": "Auto imported from components/categories/categories.vue"
   },
   "CategoriesSubCategories": {
     "description": "Auto imported from components/categories/subCategories.vue"
-  },
-  "Cart": {
-    "description": "Auto imported from components/cart/Cart.vue"
-  },
-  "History": {
-    "description": "Auto imported from components/history/history.vue"
   },
   "Login": {
     "description": "Auto imported from components/login/login.vue"
@@ -22,12 +28,6 @@
   },
   "OverlaysSessionExpired": {
     "description": "Auto imported from components/overlays/Session-expired.vue"
-  },
-  "Index": {
-    "description": "Auto imported from components/index/index.vue"
-  },
-  "IndexUser": {
-    "description": "Auto imported from components/index/indexUser.vue"
   },
   "Register": {
     "description": "Auto imported from components/register/register.vue"
@@ -47,6 +47,21 @@
   "User": {
     "description": "Auto imported from components/user/user.vue"
   },
+  "IndexVueHead": {
+    "description": "Auto imported from components/index/vue/head.vue"
+  },
+  "IndexVueMobileApp": {
+    "description": "Auto imported from components/index/vue/mobileApp.vue"
+  },
+  "IndexVueUserHeadServices": {
+    "description": "Auto imported from components/index/vueUser/headServices.vue"
+  },
+  "CartVueStep1Cart": {
+    "description": "Auto imported from components/cart/vue/step1-cart.vue"
+  },
+  "CartVueStep2Checkout": {
+    "description": "Auto imported from components/cart/vue/step2-checkout.vue"
+  },
   "CategoriesVueCatGroups": {
     "description": "Auto imported from components/categories/vue/catGroups.vue"
   },
@@ -58,21 +73,6 @@
   },
   "CategoriesVueListCategories": {
     "description": "Auto imported from components/categories/vue/listCategories.vue"
-  },
-  "CartVueStep1Cart": {
-    "description": "Auto imported from components/cart/vue/step1-cart.vue"
-  },
-  "CartVueStep2Checkout": {
-    "description": "Auto imported from components/cart/vue/step2-checkout.vue"
-  },
-  "IndexVueHead": {
-    "description": "Auto imported from components/index/vue/head.vue"
-  },
-  "IndexVueMobileApp": {
-    "description": "Auto imported from components/index/vue/mobileApp.vue"
-  },
-  "IndexVueUserHeadServices": {
-    "description": "Auto imported from components/index/vueUser/headServices.vue"
   },
   "RegisterStepsStep1": {
     "description": "Auto imported from components/register/steps/step1.vue"

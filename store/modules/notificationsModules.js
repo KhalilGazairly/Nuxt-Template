@@ -1,7 +1,7 @@
 const state = {
     loading: true,
     data: [],
-    oneNotification:'',
+    oneNotification: '',
 }
 
 const getters = {
@@ -39,12 +39,12 @@ const actions = {
     async updateNotification({ state, dispatch }, Obj) {
         state.loading = true
         var data = JSON.stringify({
-            "is_clicked": Obj.is_clicked,
-            "content": Obj.email,
-            "subject": Obj.name
-        });
-        const config = { headers: {'Content-Type': 'application/json'} };
-        this.$axios.put('/api/notification/' + Obj.id, data,config).then((res) => {
+            is_clicked: Obj.is_clicked,
+            content: Obj.email,
+            subject: Obj.name,
+        })
+        const config = { headers: { 'Content-Type': 'application/json' } }
+        this.$axios.put('/api/notification/' + Obj.id, data, config).then((res) => {
             state.cart = res.data
             if (res.data.status === 200) {
                 state.data = res.data
@@ -53,6 +53,26 @@ const actions = {
             }
             state.loading = false
         })
+    },
+    Addnotification({ state, dispatch }, arrayData) {
+        var data = JSON.stringify({
+            "content":arrayData.content,
+            "subject":arrayData.subject,
+            "is_clicked":arrayData.is_clicked
+        });
+        this.$axios
+            .post('/api/notification/', data)
+            .then((res) => {
+                state.loading = false
+                if (res.data.status == 1) {
+                    dispatch('routerTo')
+                } else {
+                    alert('error')
+                }
+            })
+            .catch((error) => {
+                state.loading = false
+            })
     },
 }
 

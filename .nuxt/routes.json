@@ -35,6 +35,13 @@
     "_name": "_52a42674"
   },
   {
+    "name": "favourite___en",
+    "path": "/favourite",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\favourite\\\\index.vue",
+    "chunkName": "pages/favourite/index",
+    "_name": "_a16bf28a"
+  },
+  {
     "name": "History___en",
     "path": "/History",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\History.vue",
@@ -140,6 +147,13 @@
     "_name": "_52a42674"
   },
   {
+    "name": "favourite___ar",
+    "path": "/ar/favourite",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\favourite\\\\index.vue",
+    "chunkName": "pages/favourite/index",
+    "_name": "_a16bf28a"
+  },
+  {
     "name": "History___ar",
     "path": "/ar/History",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\History.vue",
@@ -238,6 +252,13 @@
     "_name": "_2b9d9448"
   },
   {
+    "name": "favourite-id___ar",
+    "path": "/ar/favourite/:id",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\favourite\\\\_id.vue",
+    "chunkName": "pages/favourite/_id",
+    "_name": "_bcdf083a"
+  },
+  {
     "name": "Notifications-id___ar",
     "path": "/ar/Notifications/:id",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\_id.vue",
@@ -257,6 +278,13 @@
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\categories\\\\_id.vue",
     "chunkName": "pages/categories/_id",
     "_name": "_2b9d9448"
+  },
+  {
+    "name": "favourite-id___en",
+    "path": "/favourite/:id",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\favourite\\\\_id.vue",
+    "chunkName": "pages/favourite/_id",
+    "_name": "_bcdf083a"
   },
   {
     "name": "Notifications-id___en",

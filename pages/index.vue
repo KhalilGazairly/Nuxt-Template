@@ -1,10 +1,10 @@
 <template>
-  <Login />
+  <Index />
 </template>
 
 
 <script>
-import Login from '../components/login/login.vue'
+import Index from '../components/index/index.vue'
 export default {
    data: () => ({
 
@@ -14,7 +14,7 @@ export default {
 },
 
   components: {
-    Login,
+    Index,
   },
 }
 </script>

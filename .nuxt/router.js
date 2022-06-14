@@ -9,6 +9,7 @@ const _dfc3f62a = () => interopDefault(import('..\\pages\\account.vue' /* webpac
 const _adfd8ae0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 const _54702e5c = () => interopDefault(import('..\\pages\\cart.vue' /* webpackChunkName: "pages/cart" */))
 const _52a42674 = () => interopDefault(import('..\\pages\\categories\\index.vue' /* webpackChunkName: "pages/categories/index" */))
+const _a16bf28a = () => interopDefault(import('..\\pages\\favourite\\index.vue' /* webpackChunkName: "pages/favourite/index" */))
 const _563b089c = () => interopDefault(import('..\\pages\\History.vue' /* webpackChunkName: "pages/History" */))
 const _72a8dda7 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
 const _c81a6788 = () => interopDefault(import('..\\pages\\Notifications\\index.vue' /* webpackChunkName: "pages/Notifications/index" */))
@@ -22,6 +23,7 @@ const _ddecad78 = () => interopDefault(import('..\\pages\\test.vue' /* webpackCh
 const _053174fc = () => interopDefault(import('..\\pages\\users\\index.vue' /* webpackChunkName: "pages/users/index" */))
 const _0a1b0602 = () => interopDefault(import('..\\pages\\Notifications\\create.vue' /* webpackChunkName: "pages/Notifications/create" */))
 const _2b9d9448 = () => interopDefault(import('..\\pages\\categories\\_id.vue' /* webpackChunkName: "pages/categories/_id" */))
+const _bcdf083a = () => interopDefault(import('..\\pages\\favourite\\_id.vue' /* webpackChunkName: "pages/favourite/_id" */))
 const _9e02a4b8 = () => interopDefault(import('..\\pages\\Notifications\\_id.vue' /* webpackChunkName: "pages/Notifications/_id" */))
 const _0e2e41d7 = () => interopDefault(import('..\\pages\\service\\_id.vue' /* webpackChunkName: "pages/service/_id" */))
 
@@ -56,6 +58,10 @@ export const routerOptions = {
     path: "/categories",
     component: _52a42674,
     name: "categories___en"
+  }, {
+    path: "/favourite",
+    component: _a16bf28a,
+    name: "favourite___en"
   }, {
     path: "/History",
     component: _563b089c,
@@ -117,6 +123,10 @@ export const routerOptions = {
     component: _52a42674,
     name: "categories___ar"
   }, {
+    path: "/ar/favourite",
+    component: _a16bf28a,
+    name: "favourite___ar"
+  }, {
     path: "/ar/History",
     component: _563b089c,
     name: "History___ar"
@@ -173,6 +183,10 @@ export const routerOptions = {
     component: _2b9d9448,
     name: "categories-id___ar"
   }, {
+    path: "/ar/favourite/:id",
+    component: _bcdf083a,
+    name: "favourite-id___ar"
+  }, {
     path: "/ar/Notifications/:id",
     component: _9e02a4b8,
     name: "Notifications-id___ar"
@@ -184,6 +198,10 @@ export const routerOptions = {
     path: "/categories/:id",
     component: _2b9d9448,
     name: "categories-id___en"
+  }, {
+    path: "/favourite/:id",
+    component: _bcdf083a,
+    name: "favourite-id___en"
   }, {
     path: "/Notifications/:id",
     component: _9e02a4b8,

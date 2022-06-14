@@ -106,10 +106,7 @@ const actions = {
     var data = JSON.stringify({
       "userName":arrayData.userName,
       "password":arrayData.password
-  });
-    // var data = new FormData()
-    // data.append('phone_number', arrayData.phone.replace(/\s/g))
-    // data.append('password', arrayData.password)
+    });
     state.loading = true
     const response = this.$axios
       .$post('/signin', data)

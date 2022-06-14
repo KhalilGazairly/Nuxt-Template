@@ -35,6 +35,13 @@
     "_name": "_4d2e79d0"
   },
   {
+    "name": "favourite___en",
+    "path": "/favourite",
+    "component": "/home/khalil-gazairly/workspace/kh/Nuxt-Template/pages/favourite/index.vue",
+    "chunkName": "pages/favourite/index",
+    "_name": "_a6d240fa"
+  },
+  {
     "name": "History___en",
     "path": "/History",
     "component": "/home/khalil-gazairly/workspace/kh/Nuxt-Template/pages/History.vue",
@@ -140,6 +147,13 @@
     "_name": "_4d2e79d0"
   },
   {
+    "name": "favourite___ar",
+    "path": "/ar/favourite",
+    "component": "/home/khalil-gazairly/workspace/kh/Nuxt-Template/pages/favourite/index.vue",
+    "chunkName": "pages/favourite/index",
+    "_name": "_a6d240fa"
+  },
+  {
     "name": "History___ar",
     "path": "/ar/History",
     "component": "/home/khalil-gazairly/workspace/kh/Nuxt-Template/pages/History.vue",
@@ -238,6 +252,13 @@
     "_name": "_35fcab80"
   },
   {
+    "name": "favourite-id___ar",
+    "path": "/ar/favourite/:id",
+    "component": "/home/khalil-gazairly/workspace/kh/Nuxt-Template/pages/favourite/_id.vue",
+    "chunkName": "pages/favourite/_id",
+    "_name": "_5c4ce6ab"
+  },
+  {
     "name": "Notifications-id___ar",
     "path": "/ar/Notifications/:id",
     "component": "/home/khalil-gazairly/workspace/kh/Nuxt-Template/pages/Notifications/_id.vue",
@@ -257,6 +278,13 @@
     "component": "/home/khalil-gazairly/workspace/kh/Nuxt-Template/pages/categories/_id.vue",
     "chunkName": "pages/categories/_id",
     "_name": "_35fcab80"
+  },
+  {
+    "name": "favourite-id___en",
+    "path": "/favourite/:id",
+    "component": "/home/khalil-gazairly/workspace/kh/Nuxt-Template/pages/favourite/_id.vue",
+    "chunkName": "pages/favourite/_id",
+    "_name": "_5c4ce6ab"
   },
   {
     "name": "Notifications-id___en",

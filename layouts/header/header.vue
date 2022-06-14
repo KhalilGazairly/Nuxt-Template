@@ -37,12 +37,11 @@ export default {
 
   mounted() {
     this.setCity()
-    this.getCart()
+    // this.getCart()
   },
 
   methods: {
     ...mapActions([
-      'getCart',
       'Logout',
       'getCity',
       'changeLanguage',

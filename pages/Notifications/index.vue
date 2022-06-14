@@ -55,9 +55,8 @@
 </template>
 
 <script>
- import {mdiPencil,mdiDelete} from '@mdi/js'
+import {mdiPencil,mdiDelete} from '@mdi/js'
 import { mapActions, mapGetters } from 'vuex'
-import Loading from '../../components/tools/loadingP.vue'
 export default {
     data() {
         return {
@@ -67,9 +66,6 @@ export default {
             }, 
         }
     },
-     components: {
-    Loading,
-  },
   computed: {
     ...mapGetters(['allnotificationList']),
   },

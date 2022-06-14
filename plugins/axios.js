@@ -7,7 +7,7 @@ export default function ({ $axios, app }, inject) {
         'Content-Type': 'multipart/form-data',
         'Vary':'X-HTTP-Method-Override',
         'Content-Type': 'application/json',
-        'Authorization':'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWZjZjEzZWM2ZTczNzdlNTk3YjRhNSIsImlhdCI6MTY1NTA1NTA3MCwiZXhwIjoxNjYzNjk1MDcwfQ.Dn3q4mev-E9mM5U3J7rU5vhFrNITRN34RU3PjXSVoIc',
+        'Authorization':app.$cookies.get('Authorization'),
         // 'session-id':store.state.auth.sessionId
       }
     }

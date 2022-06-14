@@ -1,7 +1,7 @@
 const state = {
     loading: true,
     data: [],
-    oneNotification: [],
+    oneNotification:'',
 }
 
 const getters = {
@@ -40,8 +40,8 @@ const actions = {
         state.loading = true
         var data = JSON.stringify({
             "is_clicked": Obj.is_clicked,
-            "content":Obj.content,
-            "subject":Obj.subject
+            "content": Obj.email,
+            "subject": Obj.name
         });
         const config = { headers: {'Content-Type': 'application/json'} };
         this.$axios.put('/api/notification/' + Obj.id, data,config).then((res) => {

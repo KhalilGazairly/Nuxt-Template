@@ -8,8 +8,8 @@
   "IndexUser": {
     "description": "Auto imported from components/index/indexUser.vue"
   },
-  "Cart": {
-    "description": "Auto imported from components/cart/Cart.vue"
+  "Login": {
+    "description": "Auto imported from components/login/login.vue"
   },
   "Categories": {
     "description": "Auto imported from components/categories/categories.vue"
@@ -17,8 +17,8 @@
   "CategoriesSubCategories": {
     "description": "Auto imported from components/categories/subCategories.vue"
   },
-  "Login": {
-    "description": "Auto imported from components/login/login.vue"
+  "Cart": {
+    "description": "Auto imported from components/cart/Cart.vue"
   },
   "Orders": {
     "description": "Auto imported from components/orders/orders.vue"
@@ -56,12 +56,6 @@
   "IndexVueUserHeadServices": {
     "description": "Auto imported from components/index/vueUser/headServices.vue"
   },
-  "CartVueStep1Cart": {
-    "description": "Auto imported from components/cart/vue/step1-cart.vue"
-  },
-  "CartVueStep2Checkout": {
-    "description": "Auto imported from components/cart/vue/step2-checkout.vue"
-  },
   "CategoriesVueCatGroups": {
     "description": "Auto imported from components/categories/vue/catGroups.vue"
   },
@@ -73,6 +67,12 @@
   },
   "CategoriesVueListCategories": {
     "description": "Auto imported from components/categories/vue/listCategories.vue"
+  },
+  "CartVueStep1Cart": {
+    "description": "Auto imported from components/cart/vue/step1-cart.vue"
+  },
+  "CartVueStep2Checkout": {
+    "description": "Auto imported from components/cart/vue/step2-checkout.vue"
   },
   "RegisterStepsStep1": {
     "description": "Auto imported from components/register/steps/step1.vue"

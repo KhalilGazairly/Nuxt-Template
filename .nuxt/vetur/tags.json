@@ -7,48 +7,27 @@
   },
   "Cart": {
     "description": "Auto imported from components/cart/Cart.vue"
-<<<<<<< HEAD
   },
   "History": {
     "description": "Auto imported from components/history/history.vue"
   },
-  "Index": {
-    "description": "Auto imported from components/index/index.vue"
-  },
-  "IndexUser": {
-    "description": "Auto imported from components/index/indexUser.vue"
-  },
-=======
-  },
-  "History": {
-    "description": "Auto imported from components/history/history.vue"
-  },
->>>>>>> e97dae17963bfbf40257bc8a668ae53ea121aa9d
   "Login": {
     "description": "Auto imported from components/login/login.vue"
   },
   "Orders": {
     "description": "Auto imported from components/orders/orders.vue"
-<<<<<<< HEAD
-=======
   },
   "Overlays": {
     "description": "Auto imported from components/overlays/overlays.vue"
->>>>>>> e97dae17963bfbf40257bc8a668ae53ea121aa9d
   },
   "OverlaysSessionExpired": {
     "description": "Auto imported from components/overlays/Session-expired.vue"
   },
-<<<<<<< HEAD
-  "Overlays": {
-    "description": "Auto imported from components/overlays/overlays.vue"
-=======
   "Index": {
     "description": "Auto imported from components/index/index.vue"
   },
   "IndexUser": {
     "description": "Auto imported from components/index/indexUser.vue"
->>>>>>> e97dae17963bfbf40257bc8a668ae53ea121aa9d
   },
   "Register": {
     "description": "Auto imported from components/register/register.vue"

@@ -6,16 +6,16 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<Cart>` | `<cart>` (components/cart/Cart.vue)
-- `<History>` | `<history>` (components/history/history.vue)
 - `<Categories>` | `<categories>` (components/categories/categories.vue)
 - `<CategoriesSubCategories>` | `<categories-sub-categories>` (components/categories/subCategories.vue)
+- `<Cart>` | `<cart>` (components/cart/Cart.vue)
+- `<History>` | `<history>` (components/history/history.vue)
 - `<Index>` | `<index>` (components/index/index.vue)
 - `<IndexUser>` | `<index-user>` (components/index/indexUser.vue)
-- `<Orders>` | `<orders>` (components/orders/orders.vue)
 - `<Login>` | `<login>` (components/login/login.vue)
-- `<Overlays>` | `<overlays>` (components/overlays/overlays.vue)
+- `<Orders>` | `<orders>` (components/orders/orders.vue)
 - `<OverlaysSessionExpired>` | `<overlays-session-expired>` (components/overlays/Session-expired.vue)
+- `<Overlays>` | `<overlays>` (components/overlays/overlays.vue)
 - `<Register>` | `<register>` (components/register/register.vue)
 - `<Service>` | `<service>` (components/service/service.vue)
 - `<ToolsLoadingP>` | `<tools-loading-p>` (components/tools/loadingP.vue)

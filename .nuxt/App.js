@@ -2,21 +2,21 @@ import Vue from 'vue'
 import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } from 'ufo'
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
-import NuxtError from '..\\layouts\\error.vue'
+import NuxtError from '../layouts/error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '..\\node_modules\\@fortawesome\\fontawesome-svg-core\\styles.css'
+import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
-import '..\\assets\\css\\main.scss'
+import '../assets/css/main.scss'
 
-import '..\\node_modules\\vuetify\\dist\\vuetify.css'
+import '../node_modules/vuetify/dist/vuetify.css'
 
-import _6f6c098b from '..\\layouts\\default.vue'
-import _24488059 from '..\\layouts\\footer\\footer.vue'
-import _4e1b6c19 from '..\\layouts\\header\\header.vue'
-import _83f2dc2a from '..\\layouts\\header\\menu.vue'
-import _53785509 from '..\\layouts\\header\\menulist.vue'
+import _6f6c098b from '../layouts/default.vue'
+import _24488059 from '../layouts/footer/footer.vue'
+import _4e1b6c19 from '../layouts/header/header.vue'
+import _83f2dc2a from '../layouts/header/menu.vue'
+import _53785509 from '../layouts/header/menulist.vue'
 
 const layouts = { "_default": sanitizeComponent(_6f6c098b),"_footer/footer": sanitizeComponent(_24488059),"_header/header": sanitizeComponent(_4e1b6c19),"_header/menu": sanitizeComponent(_83f2dc2a),"_header/menulist": sanitizeComponent(_53785509) }
 

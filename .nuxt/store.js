@@ -8,7 +8,7 @@ const VUEX_PROPERTIES = ['state', 'getters', 'actions', 'mutations']
 let store = {};
 
 (function updateModules () {
-  store = normalizeRoot(require('..\\store\\index.js'), 'store/index.js')
+  store = normalizeRoot(require('../store/index.js'), 'store/index.js')
 
   // If store is an exported method = classic mode (deprecated)
 
@@ -19,37 +19,37 @@ let store = {};
   // Enforce store modules
   store.modules = store.modules || {}
 
-  resolveStoreModules(require('..\\store\\modules\\addressModules.js'), 'modules/addressModules.js')
-  resolveStoreModules(require('..\\store\\modules\\authModules.js'), 'modules/authModules.js')
-  resolveStoreModules(require('..\\store\\modules\\cartsModules.js'), 'modules/cartsModules.js')
-  resolveStoreModules(require('..\\store\\modules\\categoriesModules.js'), 'modules/categoriesModules.js')
-  resolveStoreModules(require('..\\store\\modules\\CityModule.js'), 'modules/CityModule.js')
-  resolveStoreModules(require('..\\store\\modules\\ckeckoutModule.js'), 'modules/ckeckoutModule.js')
-  resolveStoreModules(require('..\\store\\modules\\listOrderModules.js'), 'modules/listOrderModules.js')
-  resolveStoreModules(require('..\\store\\modules\\msgModules.js'), 'modules/msgModules.js')
-  resolveStoreModules(require('..\\store\\modules\\notificationsModules.js'), 'modules/notificationsModules.js')
-  resolveStoreModules(require('..\\store\\modules\\servicesModules.js'), 'modules/servicesModules.js')
-  resolveStoreModules(require('..\\store\\modules\\userModules.js'), 'modules/userModules.js')
-  resolveStoreModules(require('..\\store\\modules\\usersModules.js'), 'modules/usersModules.js')
+  resolveStoreModules(require('../store/modules/addressModules.js'), 'modules/addressModules.js')
+  resolveStoreModules(require('../store/modules/authModules.js'), 'modules/authModules.js')
+  resolveStoreModules(require('../store/modules/cartsModules.js'), 'modules/cartsModules.js')
+  resolveStoreModules(require('../store/modules/categoriesModules.js'), 'modules/categoriesModules.js')
+  resolveStoreModules(require('../store/modules/CityModule.js'), 'modules/CityModule.js')
+  resolveStoreModules(require('../store/modules/ckeckoutModule.js'), 'modules/ckeckoutModule.js')
+  resolveStoreModules(require('../store/modules/listOrderModules.js'), 'modules/listOrderModules.js')
+  resolveStoreModules(require('../store/modules/msgModules.js'), 'modules/msgModules.js')
+  resolveStoreModules(require('../store/modules/notificationsModules.js'), 'modules/notificationsModules.js')
+  resolveStoreModules(require('../store/modules/servicesModules.js'), 'modules/servicesModules.js')
+  resolveStoreModules(require('../store/modules/userModules.js'), 'modules/userModules.js')
+  resolveStoreModules(require('../store/modules/usersModules.js'), 'modules/usersModules.js')
 
   // If the environment supports hot reloading...
 
   if (process.client && module.hot) {
     // Whenever any Vuex module is updated...
     module.hot.accept([
-      '..\\store\\index.js',
-      '..\\store\\modules\\addressModules.js',
-      '..\\store\\modules\\authModules.js',
-      '..\\store\\modules\\cartsModules.js',
-      '..\\store\\modules\\categoriesModules.js',
-      '..\\store\\modules\\CityModule.js',
-      '..\\store\\modules\\ckeckoutModule.js',
-      '..\\store\\modules\\listOrderModules.js',
-      '..\\store\\modules\\msgModules.js',
-      '..\\store\\modules\\notificationsModules.js',
-      '..\\store\\modules\\servicesModules.js',
-      '..\\store\\modules\\userModules.js',
-      '..\\store\\modules\\usersModules.js',
+      '../store/index.js',
+      '../store/modules/addressModules.js',
+      '../store/modules/authModules.js',
+      '../store/modules/cartsModules.js',
+      '../store/modules/categoriesModules.js',
+      '../store/modules/CityModule.js',
+      '../store/modules/ckeckoutModule.js',
+      '../store/modules/listOrderModules.js',
+      '../store/modules/msgModules.js',
+      '../store/modules/notificationsModules.js',
+      '../store/modules/servicesModules.js',
+      '../store/modules/userModules.js',
+      '../store/modules/usersModules.js',
     ], () => {
       // Update `root.modules` with the latest definitions.
       updateModules()

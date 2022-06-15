@@ -82,7 +82,7 @@ export default {
 
   mounted() {
     this.getoneNotification(this.$route.params.id)
-    this.completeUserData()
+    setTimeout(() => this.completeUserData(), 1000);
   },
 }
 </script>

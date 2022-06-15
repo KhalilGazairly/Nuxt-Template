@@ -56,6 +56,13 @@
     "_name": "_72a8dda7"
   },
   {
+    "name": "maids___en",
+    "path": "/maids",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\maids\\\\index.vue",
+    "chunkName": "pages/maids/index",
+    "_name": "_2381d8e0"
+  },
+  {
     "name": "Notifications___en",
     "path": "/Notifications",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\index.vue",
@@ -89,6 +96,13 @@
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Reschedule.vue",
     "chunkName": "pages/Reschedule",
     "_name": "_973951c8"
+  },
+  {
+    "name": "reviews___en",
+    "path": "/reviews",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\reviews\\\\index.vue",
+    "chunkName": "pages/reviews/index",
+    "_name": "_239bb689"
   },
   {
     "name": "service___en",
@@ -168,6 +182,13 @@
     "_name": "_72a8dda7"
   },
   {
+    "name": "maids___ar",
+    "path": "/ar/maids",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\maids\\\\index.vue",
+    "chunkName": "pages/maids/index",
+    "_name": "_2381d8e0"
+  },
+  {
     "name": "Notifications___ar",
     "path": "/ar/Notifications",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\index.vue",
@@ -203,6 +224,13 @@
     "_name": "_973951c8"
   },
   {
+    "name": "reviews___ar",
+    "path": "/ar/reviews",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\reviews\\\\index.vue",
+    "chunkName": "pages/reviews/index",
+    "_name": "_239bb689"
+  },
+  {
     "name": "service___ar",
     "path": "/ar/service",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\service\\\\index.vue",
@@ -231,6 +259,13 @@
     "_name": "_053174fc"
   },
   {
+    "name": "favourite-create___en",
+    "path": "/favourite/create",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\favourite\\\\create.vue",
+    "chunkName": "pages/favourite/create",
+    "_name": "_61ab1b63"
+  },
+  {
     "name": "Notifications-create___en",
     "path": "/Notifications/create",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\create.vue",
@@ -238,11 +273,32 @@
     "_name": "_0a1b0602"
   },
   {
+    "name": "reviews-create___en",
+    "path": "/reviews/create",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\reviews\\\\create.vue",
+    "chunkName": "pages/reviews/create",
+    "_name": "_778f6555"
+  },
+  {
+    "name": "favourite-create___ar",
+    "path": "/ar/favourite/create",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\favourite\\\\create.vue",
+    "chunkName": "pages/favourite/create",
+    "_name": "_61ab1b63"
+  },
+  {
     "name": "Notifications-create___ar",
     "path": "/ar/Notifications/create",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\create.vue",
     "chunkName": "pages/Notifications/create",
     "_name": "_0a1b0602"
+  },
+  {
+    "name": "reviews-create___ar",
+    "path": "/ar/reviews/create",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\reviews\\\\create.vue",
+    "chunkName": "pages/reviews/create",
+    "_name": "_778f6555"
   },
   {
     "name": "categories-id___ar",
@@ -259,11 +315,25 @@
     "_name": "_bcdf083a"
   },
   {
+    "name": "maids-id___ar",
+    "path": "/ar/maids/:id",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\maids\\\\_id.vue",
+    "chunkName": "pages/maids/_id",
+    "_name": "_e51ed970"
+  },
+  {
     "name": "Notifications-id___ar",
     "path": "/ar/Notifications/:id",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\_id.vue",
     "chunkName": "pages/Notifications/_id",
     "_name": "_9e02a4b8"
+  },
+  {
+    "name": "reviews-id___ar",
+    "path": "/ar/reviews/:id",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\reviews\\\\_id.vue",
+    "chunkName": "pages/reviews/_id",
+    "_name": "_7687c731"
   },
   {
     "name": "service-id___ar",
@@ -287,11 +357,25 @@
     "_name": "_bcdf083a"
   },
   {
+    "name": "maids-id___en",
+    "path": "/maids/:id",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\maids\\\\_id.vue",
+    "chunkName": "pages/maids/_id",
+    "_name": "_e51ed970"
+  },
+  {
     "name": "Notifications-id___en",
     "path": "/Notifications/:id",
     "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\Notifications\\\\_id.vue",
     "chunkName": "pages/Notifications/_id",
     "_name": "_9e02a4b8"
+  },
+  {
+    "name": "reviews-id___en",
+    "path": "/reviews/:id",
+    "component": "C:\\\\Users\\\\Abdullah\\\\Desktop\\\\musallaha-user-website\\\\pages\\\\reviews\\\\_id.vue",
+    "chunkName": "pages/reviews/_id",
+    "_name": "_7687c731"
   },
   {
     "name": "service-id___en",

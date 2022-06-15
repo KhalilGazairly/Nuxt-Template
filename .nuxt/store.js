@@ -27,8 +27,10 @@ let store = {};
   resolveStoreModules(require('..\\store\\modules\\ckeckoutModule.js'), 'modules/ckeckoutModule.js')
   resolveStoreModules(require('..\\store\\modules\\favouriteModules.js'), 'modules/favouriteModules.js')
   resolveStoreModules(require('..\\store\\modules\\listOrderModules.js'), 'modules/listOrderModules.js')
+  resolveStoreModules(require('..\\store\\modules\\maidModules.js'), 'modules/maidModules.js')
   resolveStoreModules(require('..\\store\\modules\\msgModules.js'), 'modules/msgModules.js')
   resolveStoreModules(require('..\\store\\modules\\notificationsModules.js'), 'modules/notificationsModules.js')
+  resolveStoreModules(require('..\\store\\modules\\reviewsModules.js'), 'modules/reviewsModules.js')
   resolveStoreModules(require('..\\store\\modules\\servicesModules.js'), 'modules/servicesModules.js')
   resolveStoreModules(require('..\\store\\modules\\userModules.js'), 'modules/userModules.js')
   resolveStoreModules(require('..\\store\\modules\\usersModules.js'), 'modules/usersModules.js')
@@ -47,8 +49,10 @@ let store = {};
       '..\\store\\modules\\ckeckoutModule.js',
       '..\\store\\modules\\favouriteModules.js',
       '..\\store\\modules\\listOrderModules.js',
+      '..\\store\\modules\\maidModules.js',
       '..\\store\\modules\\msgModules.js',
       '..\\store\\modules\\notificationsModules.js',
+      '..\\store\\modules\\reviewsModules.js',
       '..\\store\\modules\\servicesModules.js',
       '..\\store\\modules\\userModules.js',
       '..\\store\\modules\\usersModules.js',

@@ -8,20 +8,20 @@
   "CategoriesSubCategories": {
     "description": "Auto imported from components/categories/subCategories.vue"
   },
-  "History": {
-    "description": "Auto imported from components/history/history.vue"
-  },
   "Index": {
     "description": "Auto imported from components/index/index.vue"
   },
   "IndexUser": {
     "description": "Auto imported from components/index/indexUser.vue"
   },
-  "Orders": {
-    "description": "Auto imported from components/orders/orders.vue"
+  "History": {
+    "description": "Auto imported from components/history/history.vue"
   },
   "Login": {
     "description": "Auto imported from components/login/login.vue"
+  },
+  "Orders": {
+    "description": "Auto imported from components/orders/orders.vue"
   },
   "Overlays": {
     "description": "Auto imported from components/overlays/overlays.vue"

@@ -7,15 +7,21 @@
   },
   "CategoriesSubCategories": {
     "description": "Auto imported from components/categories/subCategories.vue"
+<<<<<<< HEAD
   },
   "History": {
     "description": "Auto imported from components/history/history.vue"
+=======
+>>>>>>> cd9bafea7e3e9d2ef60b4d66fc7f44ba52e181b7
   },
   "Index": {
     "description": "Auto imported from components/index/index.vue"
   },
   "IndexUser": {
     "description": "Auto imported from components/index/indexUser.vue"
+  },
+  "History": {
+    "description": "Auto imported from components/history/history.vue"
   },
   "Login": {
     "description": "Auto imported from components/login/login.vue"

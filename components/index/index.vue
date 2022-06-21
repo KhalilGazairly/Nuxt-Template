@@ -1,46 +1,14 @@
 <template>
-<div>
-    <div v-if="allAuth.checkAuth">
-      <IndexUser />
-    </div>
-    <div v-else>
-      <Head />
-
-     <div class="ServicesHome" >
-                 <div class="section_mov">
-        <div class="wave wave1"></div>
-        <div class="wave wave2"></div>
-        <div class="wave wave3"></div>
-        <div class="wave wave4"></div>
-    </div>
-      <div class="container_cc ">
-            <Services />
-            </div>
-      </div>
-
-  
-      <MobileApp />
-      </div>
-    </div>  
+<div>dashboard</div>
 </template>
 
  
 <script>
  
-import Head from './vue/head.vue'
-import Services from '../categories/categories.vue'
 
-import MobileApp from './vue/mobileApp.vue'
-import IndexUser from './indexUser.vue'
-import { mapGetters } from 'vuex'
 
 export default {
-  components: {
-    Head,
-    Services,
-    MobileApp,
-    IndexUser,
-  },
+
   head() {
     return {
       title: this.$i18n.t('MR.Musllaha'),
@@ -53,9 +21,7 @@ export default {
       ],
     }
   },
-  computed: {
-    ...mapGetters(['allAuth', 'AllCityDeatils']),
-  },
+
 }
 </script>
 <style scoped>

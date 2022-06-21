@@ -4,6 +4,7 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+<<<<<<< HEAD
 const _44bd8164 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _3f102444 = () => interopDefault(import('../pages/account.vue' /* webpackChunkName: "pages/account" */))
 const _64755c29 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -26,6 +27,36 @@ const _35fcab80 = () => interopDefault(import('../pages/categories/_id.vue' /* w
 const _5c4ce6ab = () => interopDefault(import('../pages/favourite/_id.vue' /* webpackChunkName: "pages/favourite/_id" */))
 const _535df76c = () => interopDefault(import('../pages/Notifications/_id.vue' /* webpackChunkName: "pages/Notifications/_id" */))
 const _38a83712 = () => interopDefault(import('../pages/service/_id.vue' /* webpackChunkName: "pages/service/_id" */))
+=======
+const _ed6d406a = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
+const _dfc3f62a = () => interopDefault(import('..\\pages\\account.vue' /* webpackChunkName: "pages/account" */))
+const _adfd8ae0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _54702e5c = () => interopDefault(import('..\\pages\\cart.vue' /* webpackChunkName: "pages/cart" */))
+const _52a42674 = () => interopDefault(import('..\\pages\\categories\\index.vue' /* webpackChunkName: "pages/categories/index" */))
+const _a16bf28a = () => interopDefault(import('..\\pages\\favourite\\index.vue' /* webpackChunkName: "pages/favourite/index" */))
+const _563b089c = () => interopDefault(import('..\\pages\\History.vue' /* webpackChunkName: "pages/History" */))
+const _72a8dda7 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _2381d8e0 = () => interopDefault(import('..\\pages\\maids\\index.vue' /* webpackChunkName: "pages/maids/index" */))
+const _c81a6788 = () => interopDefault(import('..\\pages\\Notifications\\index.vue' /* webpackChunkName: "pages/Notifications/index" */))
+const _7b5f0797 = () => interopDefault(import('..\\pages\\orders.vue' /* webpackChunkName: "pages/orders" */))
+const _1df6e750 = () => interopDefault(import('..\\pages\\privcy-policy.vue' /* webpackChunkName: "pages/privcy-policy" */))
+const _6129f456 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
+const _973951c8 = () => interopDefault(import('..\\pages\\Reschedule.vue' /* webpackChunkName: "pages/Reschedule" */))
+const _239bb689 = () => interopDefault(import('..\\pages\\reviews\\index.vue' /* webpackChunkName: "pages/reviews/index" */))
+const _6b8e1faf = () => interopDefault(import('..\\pages\\service\\index.vue' /* webpackChunkName: "pages/service/index" */))
+const _e89285da = () => interopDefault(import('..\\pages\\terms-condition.vue' /* webpackChunkName: "pages/terms-condition" */))
+const _ddecad78 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
+const _053174fc = () => interopDefault(import('..\\pages\\users\\index.vue' /* webpackChunkName: "pages/users/index" */))
+const _61ab1b63 = () => interopDefault(import('..\\pages\\favourite\\create.vue' /* webpackChunkName: "pages/favourite/create" */))
+const _0a1b0602 = () => interopDefault(import('..\\pages\\Notifications\\create.vue' /* webpackChunkName: "pages/Notifications/create" */))
+const _778f6555 = () => interopDefault(import('..\\pages\\reviews\\create.vue' /* webpackChunkName: "pages/reviews/create" */))
+const _2b9d9448 = () => interopDefault(import('..\\pages\\categories\\_id.vue' /* webpackChunkName: "pages/categories/_id" */))
+const _bcdf083a = () => interopDefault(import('..\\pages\\favourite\\_id.vue' /* webpackChunkName: "pages/favourite/_id" */))
+const _e51ed970 = () => interopDefault(import('..\\pages\\maids\\_id.vue' /* webpackChunkName: "pages/maids/_id" */))
+const _9e02a4b8 = () => interopDefault(import('..\\pages\\Notifications\\_id.vue' /* webpackChunkName: "pages/Notifications/_id" */))
+const _7687c731 = () => interopDefault(import('..\\pages\\reviews\\_id.vue' /* webpackChunkName: "pages/reviews/_id" */))
+const _0e2e41d7 = () => interopDefault(import('..\\pages\\service\\_id.vue' /* webpackChunkName: "pages/service/_id" */))
+>>>>>>> cd9bafea7e3e9d2ef60b4d66fc7f44ba52e181b7
 
 const emptyFn = () => {}
 
@@ -71,6 +102,10 @@ export const routerOptions = {
     component: _2e1cff40,
     name: "login___en"
   }, {
+    path: "/maids",
+    component: _2381d8e0,
+    name: "maids___en"
+  }, {
     path: "/Notifications",
     component: _93ebdd3c,
     name: "Notifications___en"
@@ -90,6 +125,10 @@ export const routerOptions = {
     path: "/Reschedule",
     component: _56714d23,
     name: "Reschedule___en"
+  }, {
+    path: "/reviews",
+    component: _239bb689,
+    name: "reviews___en"
   }, {
     path: "/service",
     component: _4fa4cb62,
@@ -135,6 +174,10 @@ export const routerOptions = {
     component: _2e1cff40,
     name: "login___ar"
   }, {
+    path: "/ar/maids",
+    component: _2381d8e0,
+    name: "maids___ar"
+  }, {
     path: "/ar/Notifications",
     component: _93ebdd3c,
     name: "Notifications___ar"
@@ -155,6 +198,10 @@ export const routerOptions = {
     component: _56714d23,
     name: "Reschedule___ar"
   }, {
+    path: "/ar/reviews",
+    component: _239bb689,
+    name: "reviews___ar"
+  }, {
     path: "/ar/service",
     component: _4fa4cb62,
     name: "service___ar"
@@ -171,13 +218,29 @@ export const routerOptions = {
     component: _67498cbc,
     name: "users___ar"
   }, {
+    path: "/favourite/create",
+    component: _61ab1b63,
+    name: "favourite-create___en"
+  }, {
     path: "/Notifications/create",
     component: _32ec659c,
     name: "Notifications-create___en"
   }, {
+    path: "/reviews/create",
+    component: _778f6555,
+    name: "reviews-create___en"
+  }, {
+    path: "/ar/favourite/create",
+    component: _61ab1b63,
+    name: "favourite-create___ar"
+  }, {
     path: "/ar/Notifications/create",
     component: _32ec659c,
     name: "Notifications-create___ar"
+  }, {
+    path: "/ar/reviews/create",
+    component: _778f6555,
+    name: "reviews-create___ar"
   }, {
     path: "/ar/categories/:id",
     component: _35fcab80,
@@ -187,9 +250,17 @@ export const routerOptions = {
     component: _5c4ce6ab,
     name: "favourite-id___ar"
   }, {
+    path: "/ar/maids/:id",
+    component: _e51ed970,
+    name: "maids-id___ar"
+  }, {
     path: "/ar/Notifications/:id",
     component: _535df76c,
     name: "Notifications-id___ar"
+  }, {
+    path: "/ar/reviews/:id",
+    component: _7687c731,
+    name: "reviews-id___ar"
   }, {
     path: "/ar/service/:id",
     component: _38a83712,
@@ -203,9 +274,17 @@ export const routerOptions = {
     component: _5c4ce6ab,
     name: "favourite-id___en"
   }, {
+    path: "/maids/:id",
+    component: _e51ed970,
+    name: "maids-id___en"
+  }, {
     path: "/Notifications/:id",
     component: _535df76c,
     name: "Notifications-id___en"
+  }, {
+    path: "/reviews/:id",
+    component: _7687c731,
+    name: "reviews-id___en"
   }, {
     path: "/service/:id",
     component: _38a83712,

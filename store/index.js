@@ -13,6 +13,10 @@ import msgModules from './modules/msgModules'
 import User from './modules/userModules'
 import Users from './modules/usersModules'
 import Notifications from './modules/notificationsModules'
+import Maids from './modules/maidModules'
+import Favourits from './modules/favouriteModules'
+import Reviews from './modules/reviewsModules'
+
 // Load Vuex
 Vue.use(Vuex)
 
@@ -31,7 +35,10 @@ const store = () => {
       msgModules,
       User,
       Users,
-      Notifications
+      Notifications,
+      Favourits,
+      Maids,
+      Reviews
     },
   })
 }

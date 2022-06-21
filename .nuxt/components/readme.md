@@ -9,9 +9,13 @@ You can directly use them in pages and other components without the need to impo
 - `<Cart>` | `<cart>` (components/cart/Cart.vue)
 - `<Categories>` | `<categories>` (components/categories/categories.vue)
 - `<CategoriesSubCategories>` | `<categories-sub-categories>` (components/categories/subCategories.vue)
+<<<<<<< HEAD
 - `<History>` | `<history>` (components/history/history.vue)
+=======
+>>>>>>> cd9bafea7e3e9d2ef60b4d66fc7f44ba52e181b7
 - `<Index>` | `<index>` (components/index/index.vue)
 - `<IndexUser>` | `<index-user>` (components/index/indexUser.vue)
+- `<History>` | `<history>` (components/history/history.vue)
 - `<Login>` | `<login>` (components/login/login.vue)
 - `<Orders>` | `<orders>` (components/orders/orders.vue)
 - `<OverlaysSessionExpired>` | `<overlays-session-expired>` (components/overlays/Session-expired.vue)

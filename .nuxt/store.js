@@ -19,6 +19,7 @@ let store = {};
   // Enforce store modules
   store.modules = store.modules || {}
 
+<<<<<<< HEAD
   resolveStoreModules(require('../store/modules/addressModules.js'), 'modules/addressModules.js')
   resolveStoreModules(require('../store/modules/authModules.js'), 'modules/authModules.js')
   resolveStoreModules(require('../store/modules/cartsModules.js'), 'modules/cartsModules.js')
@@ -31,12 +32,30 @@ let store = {};
   resolveStoreModules(require('../store/modules/servicesModules.js'), 'modules/servicesModules.js')
   resolveStoreModules(require('../store/modules/userModules.js'), 'modules/userModules.js')
   resolveStoreModules(require('../store/modules/usersModules.js'), 'modules/usersModules.js')
+=======
+  resolveStoreModules(require('..\\store\\modules\\addressModules.js'), 'modules/addressModules.js')
+  resolveStoreModules(require('..\\store\\modules\\authModules.js'), 'modules/authModules.js')
+  resolveStoreModules(require('..\\store\\modules\\cartsModules.js'), 'modules/cartsModules.js')
+  resolveStoreModules(require('..\\store\\modules\\categoriesModules.js'), 'modules/categoriesModules.js')
+  resolveStoreModules(require('..\\store\\modules\\CityModule.js'), 'modules/CityModule.js')
+  resolveStoreModules(require('..\\store\\modules\\ckeckoutModule.js'), 'modules/ckeckoutModule.js')
+  resolveStoreModules(require('..\\store\\modules\\favouriteModules.js'), 'modules/favouriteModules.js')
+  resolveStoreModules(require('..\\store\\modules\\listOrderModules.js'), 'modules/listOrderModules.js')
+  resolveStoreModules(require('..\\store\\modules\\maidModules.js'), 'modules/maidModules.js')
+  resolveStoreModules(require('..\\store\\modules\\msgModules.js'), 'modules/msgModules.js')
+  resolveStoreModules(require('..\\store\\modules\\notificationsModules.js'), 'modules/notificationsModules.js')
+  resolveStoreModules(require('..\\store\\modules\\reviewsModules.js'), 'modules/reviewsModules.js')
+  resolveStoreModules(require('..\\store\\modules\\servicesModules.js'), 'modules/servicesModules.js')
+  resolveStoreModules(require('..\\store\\modules\\userModules.js'), 'modules/userModules.js')
+  resolveStoreModules(require('..\\store\\modules\\usersModules.js'), 'modules/usersModules.js')
+>>>>>>> cd9bafea7e3e9d2ef60b4d66fc7f44ba52e181b7
 
   // If the environment supports hot reloading...
 
   if (process.client && module.hot) {
     // Whenever any Vuex module is updated...
     module.hot.accept([
+<<<<<<< HEAD
       '../store/index.js',
       '../store/modules/addressModules.js',
       '../store/modules/authModules.js',
@@ -50,6 +69,24 @@ let store = {};
       '../store/modules/servicesModules.js',
       '../store/modules/userModules.js',
       '../store/modules/usersModules.js',
+=======
+      '..\\store\\index.js',
+      '..\\store\\modules\\addressModules.js',
+      '..\\store\\modules\\authModules.js',
+      '..\\store\\modules\\cartsModules.js',
+      '..\\store\\modules\\categoriesModules.js',
+      '..\\store\\modules\\CityModule.js',
+      '..\\store\\modules\\ckeckoutModule.js',
+      '..\\store\\modules\\favouriteModules.js',
+      '..\\store\\modules\\listOrderModules.js',
+      '..\\store\\modules\\maidModules.js',
+      '..\\store\\modules\\msgModules.js',
+      '..\\store\\modules\\notificationsModules.js',
+      '..\\store\\modules\\reviewsModules.js',
+      '..\\store\\modules\\servicesModules.js',
+      '..\\store\\modules\\userModules.js',
+      '..\\store\\modules\\usersModules.js',
+>>>>>>> cd9bafea7e3e9d2ef60b4d66fc7f44ba52e181b7
     ], () => {
       // Update `root.modules` with the latest definitions.
       updateModules()

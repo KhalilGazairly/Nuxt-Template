@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div class="mt-4" v-if="allnotificationList.loading">
     <LoadingP />
   </div>
@@ -32,51 +31,6 @@
       submit
     </v-btn>
   </v-form>
-=======
-  <v-row>
-    
-        <v-card-text>
-          <v-container>
-            <v-row>
-              <v-col cols="6">
-                <v-text-field
-                  label="subject"
-                  prefix=""
-                  outlined
-                  v-model="NotificationEdit.subject"
-                  required
-                ></v-text-field>
-              </v-col>
-              <v-col cols="6">
-                <v-text-field
-                  label="content"
-                  v-model="NotificationEdit.content"
-                  required
-                  outlined
-                ></v-text-field>
-              </v-col>
-              <v-col cols="6">
-               <v-checkbox v-if="!NotificationEdit.is_clicked"
-                v-model="NotificationEdit.is_clicked"
-                label="is clicked ?"
-              ></v-checkbox>
-              <v-checkbox v-else
-                v-model="NotificationEdit.is_clicked"
-                true
-                label="is clicked ?"
-                
-              ></v-checkbox>
-              </v-col>
-               
-            </v-row>
-          </v-container>
-        </v-card-text>
-
-          <v-btn color="blue darken-1" text @click="UpdateUserDetail">
-            save
-          </v-btn>
-  </v-row>
->>>>>>> b933a5c9376eb76f2e7192d57a34c7c4623cf7c1
 </template>
 
 
@@ -85,7 +39,6 @@ import { mapActions, mapGetters } from 'vuex'
 import LoadingP from '../../components/tools/loadingP.vue'
 import NoData from '../../components/tools/no-data.vue'
 export default {
-<<<<<<< HEAD
   name: 'IndexPage',
   data() {
     return {
@@ -105,33 +58,6 @@ export default {
   components: {
     LoadingP,
     NoData,
-=======
-  data: () => ({
-    NotificationEdit: {
-      subject: '',
-      content: '',
-      is_clicked:false,
-      id:''
-    },
-  }),
-  computed: {
-   
-  },
-
-
-  methods: {
-    ...mapActions(['updateNotification','getoneNotification']),
-
-    completeUserData() {
-      this.NotificationEdit.subject = this.allnotificationList.oneNotification.subject
-      this.NotificationEdit.content = this.allnotificationList.oneNotification.content
-      this.NotificationEdit.is_clicked = this.allnotificationList.oneNotification.is_clicked
-      this.NotificationEdit.id = this.$route.params.id
-    },
-    UpdateUserDetail() {
-      this.updateNotification(this.NotificationEdit);
-    },
->>>>>>> b933a5c9376eb76f2e7192d57a34c7c4623cf7c1
   },
   computed: {
     ...mapGetters(['allnotificationList']),
